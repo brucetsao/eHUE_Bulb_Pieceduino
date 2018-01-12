@@ -246,3 +246,17 @@ void DebugMsgln(String msg)
         }
    
 }
+
+void TurnOnLed()
+{
+    pixels.setBrightness(255);  // Lower brightness and save eyeballs!
+  pixels.show(); // Initialize all pixels to 'off'
+
+}
+
+void TurnOffLed()
+{
+    pixels.setBrightness(0);  // Lower brightness and save eyeballs!
+  pixels.show(); // Initialize all pixels to 'off'
+
+}
